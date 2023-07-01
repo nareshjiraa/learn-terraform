@@ -97,3 +97,7 @@ resource "aws_instance" "Payment" {
     Name = "Payment"
   }
 }
+
+output "Payment" {
+  value = aws_instance.Payment.public_ip
+}
