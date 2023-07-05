@@ -1,9 +1,11 @@
+#Declare the Variable
 ## Shell scripting equvivalalnt sample_string ="Hello World"
 variable sample_string {
   default = "Hello World"
 }
 ## Shell scripting equvivalalnt echo $sample_string
 
+#Access the variable
 output "sample_string" {
   value = "var.sample_string"
 }
