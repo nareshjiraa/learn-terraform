@@ -30,3 +30,7 @@ output "sample_string" {
 output "sample_string1" {
   value = "value of sample_string1 = ${var.sample_string}"
 }
+
+output "env" {
+  value = var.env
+}
