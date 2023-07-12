@@ -15,6 +15,7 @@ variable "sample_boolean" {
 #Booleans & numbers don't need double quotes. Terraform doesnt support single quotes
 #strings need double quotes
 
+variable "env" {}
 
 
 #Access the variable
