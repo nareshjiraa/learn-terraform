@@ -44,3 +44,7 @@ variable "sample5" {
 output "sample5" {
   value = var.sample5[0]["string"]
 }
+
+output "sample6" {
+  value = "${var.sample5[1][Num1]}"
+}
