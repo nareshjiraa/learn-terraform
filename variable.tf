@@ -46,5 +46,5 @@ output "sample5" {
 }
 
 output "sample6" {
-  value = "${var.sample5[1][Num1]}"
+  value = "${var.sample5[1]["Num1"]}"
 }
