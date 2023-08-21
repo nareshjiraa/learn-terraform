@@ -26,9 +26,9 @@ output "sample4" {
 
 variable "sample5" {
   default = [
-  string = "Hello World"
-  Num1 = 200
-    Num2 = 300
+  string = "Hello World",
+  Num1 = 200,
+    Num2 = 300,
     Bollean = false
   ]
 }
