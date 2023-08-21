@@ -14,7 +14,7 @@ variable "sample3" {
   default = [
     "Hello",
     200,
-    True
+    true
   ]
 }
 output "sample3" {
