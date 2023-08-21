@@ -20,3 +20,6 @@ variable "sample3" {
 output "sample3" {
   value = var.sample3[2]
 }
+output "sample4" {
+  value = "${var.sample3[1]}"
+}
