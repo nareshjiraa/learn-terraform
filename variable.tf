@@ -42,5 +42,5 @@ variable "sample5" {
 }
 
 output "sample5" {
-  value = var.sample5[0]
+  value = var.sample5[0]["string"]
 }
