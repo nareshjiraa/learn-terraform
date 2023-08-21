@@ -26,12 +26,21 @@ output "sample4" {
 
 variable "sample5" {
   default = [
-  string = "Hello World",
-  Num1 = 200,
-    Num2 = 300,
-    Bollean = false
+    {
+      string = "Hello World"
+    },
+    {
+      Num1 = 200
+    },
+    {
+      Num2 = 300
+    },
+    {
+      Bollean = false
+    }
   ]
 }
+
 output "sample5" {
   value = var.sample5["string"]
 }
